@@ -3,6 +3,7 @@ import Calllback from "./Calllback";
 import ContextHook from "./ContextHook";
 import Effect from "./Effect";
 import Memo from "./Memo";
+import Reducer from "./Reducer";
 import Refs from "./Refs";
 import Usestate from "./Usestate";
 
@@ -34,6 +35,10 @@ function App() {
       <div>
         <h2>5. UseContext hook</h2>
         <ContextHook />
+      </div>
+      <div>
+        <h2>6. UseReducer hook</h2>
+        <Reducer />
       </div>
     </div>
   );
